@@ -369,15 +369,14 @@ header h1 {
 }
 
 .heading h1 {
-  font-size: clamp(4rem, 22vw, 25rem);
+  font-size: clamp(5rem, 20vw, 25rem);
   width: 100%;
   line-height: 0.85;
-  letter-spacing: clamp(0px, 0.15vw, 2px);
+  letter-spacing: 2px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   color: var(--offWhite-color);
-
   white-space: nowrap;
   text-align: center;
 }
