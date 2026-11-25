@@ -369,7 +369,7 @@ header h1 {
 }
 .heading h1 {
   font-size: 25rem;
-  /* width: 100%; */
+  width: 100%; 
   line-height: 25rem;
   /* font-size: 16px; */
   letter-spacing: 2px;
