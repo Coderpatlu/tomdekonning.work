@@ -698,10 +698,9 @@ button:focus-visible {
   .story-text h1 {
     font-size: clamp(52px, 10vw, 86px);
   }
-  .heading h1 {
-    font-size: clamp(90px, 27vw, 210px);
-    white-space: nowrap;
-  }
+.heading h1 {
+  font-size: clamp(5rem, 19vw, 15rem);
+}
   .about {
     height: auto;
     align-items: flex-start;
@@ -809,11 +808,10 @@ button:focus-visible {
     height: 180px;
     margin-top: 24px;
   }
-  .heading h1 {
-    font-size: clamp(70px, 22vw, 130px);
-    line-height: 1;
-    white-space: nowrap;
-  }
+.heading h1 {
+  font-size: clamp(3.5rem, 19vw, 7rem);
+  line-height: 1;
+}
   .work-card {
     height: 440px;
     padding: 12px 4px;
