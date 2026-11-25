@@ -356,10 +356,10 @@ header h1 {
   text-transform: uppercase;
   color: var(--offWhite-color);
 }
+
 .work .heading {
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
-  /* background: #232323; */
   overflow: hidden;
   padding: 10px;
   display: flex;
@@ -367,19 +367,22 @@ header h1 {
   align-items: center;
   margin-top: 40px;
 }
+
 .heading h1 {
-  font-size: 25rem;
-  width: 100%; 
-  line-height: 25rem;
-  /* font-size: 16px; */
-  letter-spacing: 2px;
+  font-size: clamp(4rem, 22vw, 25rem);
+  width: 100%;
+  line-height: 0.85;
+  letter-spacing: clamp(0px, 0.15vw, 2px);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-
   color: var(--offWhite-color);
+
+  white-space: nowrap;
+  text-align: center;
 }
-h1 .o {
+
+.heading h1 .o {
   font-family: "Style";
   font-style: italic;
 }
@@ -388,6 +391,7 @@ h1 .o {
   display: inline-block;
   transform-origin: 50% 100%;
 }
+
 .work-card {
   /* background: #232323; */
   flex: 1;
